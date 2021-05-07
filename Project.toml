@@ -1,0 +1,7 @@
+name = "GRAMPC"
+uuid = "d1114a3a-69c3-4eb1-8e3a-31533c6bb5df"
+authors = ["Ian McInerney <ian.s.mcinerney@ieee.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
