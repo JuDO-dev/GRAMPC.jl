@@ -1,7 +1,10 @@
 name = "GRAMPC"
 uuid = "d1114a3a-69c3-4eb1-8e3a-31533c6bb5df"
-authors = ["Ian McInerney <ian.s.mcinerney@ieee.org> and contributors"]
+authors = ["Ian McInerney and contributors"]
 version = "0.1.0"
 
+[deps]
+GRAMPC_jll = "d34e300a-2cc9-5961-b927-8807a6583580"
+
 [compat]
-julia = "1"
+julia = "1.3"
