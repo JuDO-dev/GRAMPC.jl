@@ -8,8 +8,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `GRAMPC_jll.jl` have been built from these sources:
 
-* compressed archive: https://sourceforge.net/projects/grampc/files/GRAMPC_v2.2.zip (SHA256 checksum: `61b6323e4b9671e039878c7b70d915f5c6a33396bcd1184d125b82b85cfceb64`)
-* files in directory, relative to originating `build_tarballs.jl`: `./additionalSources`
+* git repository: https://github.com/imciner2/grampc_julia_wrapper.git (revision: `548a6ee98a29c2d52a4a8c0bebfef6fcd813dad4`)
 
 ## Platforms
 
@@ -20,7 +19,6 @@ The tarballs for `GRAMPC_jll.jl` have been built from these sources:
 * `Linux armv7l {call_abi=eabihf, libc=glibc}` (`armv7l-linux-gnueabihf`)
 * `Linux armv7l {call_abi=eabihf, libc=musl}` (`armv7l-linux-musleabihf`)
 * `Linux i686 {libc=glibc}` (`i686-linux-gnu`)
-* `Linux i686 {libc=musl}` (`i686-linux-musl`)
 * `Windows i686` (`i686-w64-mingw32`)
 * `Linux powerpc64le {libc=glibc}` (`powerpc64le-linux-gnu`)
 * `macOS x86_64` (`x86_64-apple-darwin`)

@@ -1,51 +1,4 @@
 [[GRAMPC]]
-arch = "aarch64"
-git-tree-sha1 = "2d8daee0c240076ae0346848181ea91a2e4da3b1"
-libc = "glibc"
-os = "linux"
-
-    [[GRAMPC.download]]
-    sha256 = "caa74f84e8547d99e487de1719f79cd17150ffea785f0857c9eb01bc3b829595"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.aarch64-linux-gnu.tar.gz"
-[[GRAMPC]]
-arch = "aarch64"
-git-tree-sha1 = "de1c5ab902407dbae15fa0db96ebd08dc3fa8395"
-libc = "musl"
-os = "linux"
-
-    [[GRAMPC.download]]
-    sha256 = "b63e33edd679a9f7ea75a08d1f283565dbdc6578444689c36764831c72606683"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.aarch64-linux-musl.tar.gz"
-[[GRAMPC]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "04083a4f2604ee031b7c13c22b41b0835da8c797"
-libc = "glibc"
-os = "linux"
-
-    [[GRAMPC.download]]
-    sha256 = "b4cc3f93e59988451dc62571549b2a6899383f125bcb3b8b8b757f9a399948e7"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.armv7l-linux-gnueabihf.tar.gz"
-[[GRAMPC]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "506ea7db441aa224fd645f2cdff2b3b0dacc4cd0"
-libc = "musl"
-os = "linux"
-
-    [[GRAMPC.download]]
-    sha256 = "af381aef670dd1fb7d4727590e760d364ed7c9fe54f3af6c6e1b4e6697a022c5"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.armv7l-linux-musleabihf.tar.gz"
-[[GRAMPC]]
-arch = "i686"
-git-tree-sha1 = "3f90504c32d814b94ce5b32a3d77c1f2d676432e"
-libc = "glibc"
-os = "linux"
-
-    [[GRAMPC.download]]
-    sha256 = "05f0553951a429b4a1e885fb98aadc5bbeacaad907983a6f27b7688ae58a4c65"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.i686-linux-gnu.tar.gz"
-[[GRAMPC]]
 arch = "i686"
 git-tree-sha1 = "d1aab7d478e3dad016efd0c4f2d5ef7a95d8d1d9"
 libc = "musl"
@@ -55,61 +8,108 @@ os = "linux"
     sha256 = "a1cfeda432636b4fa5c3d54cef73bdeaf0402d1b0b88aafcb0f17b80bd7f64d1"
     url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.i686-linux-musl.tar.gz"
 [[GRAMPC]]
-arch = "i686"
-git-tree-sha1 = "5bc85840d3fed97dfac54a9a624dfcd2e97334e6"
-os = "windows"
-
-    [[GRAMPC.download]]
-    sha256 = "56498a449cd4501064fa4475f0d867463baa78210a4f47e87c5be4fa5201e01a"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.i686-w64-mingw32.tar.gz"
-[[GRAMPC]]
-arch = "powerpc64le"
-git-tree-sha1 = "80f706147d368d4ecf20e83e5f30600364be44c7"
+arch = "aarch64"
+git-tree-sha1 = "1133e1d16cf9779fcccf6e1e1bc04c04ad963508"
 libc = "glibc"
 os = "linux"
 
     [[GRAMPC.download]]
-    sha256 = "c441f26c831e3965de0aef7fc34df3f743dc153391fa8df357cb4f0976d12676"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "b0ba239deadf56a6625c38d779999024ce49cfd7527134ca4998ca19780ccea9"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.aarch64-linux-gnu.tar.gz"
 [[GRAMPC]]
-arch = "x86_64"
-git-tree-sha1 = "2af7cbfa39b94279b1b388a15166bfbe8dca9ac0"
-os = "macos"
-
-    [[GRAMPC.download]]
-    sha256 = "4d3479d041322d0572cf6854b08a3c06c7701a191139ac353f54ab10de7c95bb"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-apple-darwin.tar.gz"
-[[GRAMPC]]
-arch = "x86_64"
-git-tree-sha1 = "2325f7e2969582737aaf9218a168f21e469497a1"
-libc = "glibc"
-os = "linux"
-
-    [[GRAMPC.download]]
-    sha256 = "ae3833725191101a8cc2671b0b6838ca3a073197977e8e72428960243a43e23b"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-linux-gnu.tar.gz"
-[[GRAMPC]]
-arch = "x86_64"
-git-tree-sha1 = "fd73ceb2c319a51dfac0e3b28263d936cd4e89fd"
+arch = "aarch64"
+git-tree-sha1 = "daa3b06ea7ddca1f5cdbc82eaa3cea41548c825e"
 libc = "musl"
 os = "linux"
 
     [[GRAMPC.download]]
-    sha256 = "09c63af52fd5d7b324d887d6735c4201e257c888bbd395bd0f4697a86062ab4f"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-linux-musl.tar.gz"
+    sha256 = "dc4d1f1f964f534a4c49c41726d1126140a0e86ae8a2dd03a0b79d77e6e9ec6a"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.aarch64-linux-musl.tar.gz"
 [[GRAMPC]]
-arch = "x86_64"
-git-tree-sha1 = "5867fe70c97e2a4e64cf88cc991c0abc4ea5df9b"
-os = "freebsd"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a0dcbd0431a78e1d3dfb97516e6177649e6004a2"
+libc = "glibc"
+os = "linux"
 
     [[GRAMPC.download]]
-    sha256 = "852e8a861a21c39f2b74bf12c0c4c048611fe738138bc6512506ad7b4baabfbc"
-    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "9a168cf73a86250fd41f1e77c237173b420ae400f956be3c4a6a16f71fe9735f"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.armv7l-linux-gnueabihf.tar.gz"
 [[GRAMPC]]
-arch = "x86_64"
-git-tree-sha1 = "f7959aa39a186dd019a4afef333dc7e33d0eedb2"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "bed7f616cc8cf6d6187fb7d7dab62b922b7984df"
+libc = "musl"
+os = "linux"
+
+    [[GRAMPC.download]]
+    sha256 = "45625201b834c3d8e8687dbab0ac0be31c42ad71ab36d7cf174b2ae80d3ce48f"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.armv7l-linux-musleabihf.tar.gz"
+[[GRAMPC]]
+arch = "i686"
+git-tree-sha1 = "0bfd9cd714d61595e7878b88e0aab06037015259"
+libc = "glibc"
+os = "linux"
+
+    [[GRAMPC.download]]
+    sha256 = "947f3a1acbff36356213a739fe173014a492763ba963ef735c669d98cf3fd7bd"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.i686-linux-gnu.tar.gz"
+[[GRAMPC]]
+arch = "i686"
+git-tree-sha1 = "67c762eadc4c95a587b9cf9ad0bc788d6fc4ec4d"
 os = "windows"
 
     [[GRAMPC.download]]
-    sha256 = "fff8d7326a5a91002ad2f291199bde8cf73c751f99e18e0738d6ebec2d516e1b"
+    sha256 = "4fcb62799f743bcb2cbabd7510e919b099886b378ecef3141ea5b467069f1538"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.i686-w64-mingw32.tar.gz"
+[[GRAMPC]]
+arch = "powerpc64le"
+git-tree-sha1 = "6dbd46793af8815acc8205cd73faf43dd28c427d"
+libc = "glibc"
+os = "linux"
+
+    [[GRAMPC.download]]
+    sha256 = "f3a5266fbf3b61c393b3ed8b949dd9e880a26ddda3aa3c73ba999d72fc7320bd"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.powerpc64le-linux-gnu.tar.gz"
+[[GRAMPC]]
+arch = "x86_64"
+git-tree-sha1 = "98a853de5b3b9161fdbdd312311812c7c5947ff3"
+os = "macos"
+
+    [[GRAMPC.download]]
+    sha256 = "7ac3e5ab902713a48fa51ec73e5544b46b57ff2a3a8498ec8f017013d7fac55a"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-apple-darwin.tar.gz"
+[[GRAMPC]]
+arch = "x86_64"
+git-tree-sha1 = "1ca17db1ee4633e67f07d0eea80ca09926faa9fe"
+libc = "glibc"
+os = "linux"
+
+    [[GRAMPC.download]]
+    sha256 = "c506f3476acb2e399d3df0f1456148b7dc82655345840cc303a61d1b88b20d62"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-linux-gnu.tar.gz"
+[[GRAMPC]]
+arch = "x86_64"
+git-tree-sha1 = "50577ecddd9a625206b1ff883af3ad49ec2248d3"
+libc = "musl"
+os = "linux"
+
+    [[GRAMPC.download]]
+    sha256 = "cdd65db869b668c443e2422a97a5b47cd330737f184f2a723d7c159b9ca28b44"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-linux-musl.tar.gz"
+[[GRAMPC]]
+arch = "x86_64"
+git-tree-sha1 = "35775b728aa97e7f33d2a790fcd1ddb19c47c3a6"
+os = "freebsd"
+
+    [[GRAMPC.download]]
+    sha256 = "4083697d19ff2b1c023e5f1324afbd9ef8d0dce8ebd7219e2ef6865465c19573"
+    url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-unknown-freebsd.tar.gz"
+[[GRAMPC]]
+arch = "x86_64"
+git-tree-sha1 = "81c4a3419cd4df2c80a0b2c6e58c67ee30a7c595"
+os = "windows"
+
+    [[GRAMPC.download]]
+    sha256 = "58c8ab9f0280251b6b44100281aac22a12676c428e4ef0b0581978957f7ca217"
     url = "https://github.com/imciner2/grampc_jll.jl/releases/download/GRAMPC-v2.2.0+0/GRAMPC.v2.2.0.x86_64-w64-mingw32.tar.gz"
