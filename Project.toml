@@ -5,6 +5,7 @@ version = "0.1.0"
 
 [deps]
 GRAMPC_jll = "d34e300a-2cc9-5961-b927-8807a6583580"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [compat]
 julia = "1.3"
