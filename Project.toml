@@ -4,6 +4,7 @@ authors = ["Ian McInerney and contributors"]
 version = "0.1.0"
 
 [deps]
+BitFlags = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
 GRAMPC_jll = "d34e300a-2cc9-5961-b927-8807a6583580"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 

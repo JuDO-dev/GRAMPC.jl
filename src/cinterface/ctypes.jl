@@ -1,5 +1,5 @@
 # Julia wrapper over typeGRAMPCparam, which contains all problem-specific parameters
-struct CGRAMPCparam
+mutable struct CGRAMPCparam
     # Problem size variables
     Nx::typeInt
     Nu::typeInt
@@ -33,7 +33,7 @@ end
 
 
 # Julia wrapper typeGRAMPCopt, which contains all algorithm-related options
-struct CGRAMPCopt
+mutable struct CGRAMPCopt
     Nhor::typeInt
     MaxGradIter::typeInt
     MaxMultIter::typeInt
@@ -107,7 +107,7 @@ end
 
 
 # Julia wrapper for typeGRAMPCsol, which contains the (public) solution data
-struct CGRAMPCsol
+mutable struct CGRAMPCsol
     xnext::Ptr{typeRNum}
     unext::Ptr{typeRNum}
     pnext::Ptr{typeRNum}
@@ -124,7 +124,7 @@ end
 
 
 # Julia wrapper for typeGRAMPCrws, which contains the (private) workspace data
-struct CGRAMPCrws
+mutable struct CGRAMPCrws
     t::Ptr{typeRNum}
     tls::Ptr{typeRNum}
 
@@ -176,17 +176,10 @@ end
 
 
 # Julia wrapper for typeGRAMPC, which is the main solver type
-struct CGRAMPC
+mutable struct CGRAMPC
     param::Ptr{GRAMPC.CGRAMPCparam}
     opt::Ptr{GRAMPC.CGRAMPCopt}
     sol::Ptr{GRAMPC.CGRAMPCsol}
     rws::Ptr{GRAMPC.CGRAMPCrws}
     userparam::Ptr{typeUSERPARAM};
-end
-
-
-# Julia wrapper for the user parameter wrapper struct
-struct Cjulia_user_wrapper
-    funcs::Ref{Cjulia_funcs_wrapper}
-    user_param::Ptr{typeUSERPARAM}
 end
