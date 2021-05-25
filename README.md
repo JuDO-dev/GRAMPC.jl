@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `GRAMPC_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/imciner2/grampc_julia_wrapper.git (revision: `1ef8a3457eac0781f9c6de4ea5f96de56b13e7f6`)
+* git repository: https://github.com/imciner2/grampc_julia_wrapper.git (revision: `29ba649677557a016a3b03db72d708a99e3ca8c0`)
 
 ## Platforms
 
